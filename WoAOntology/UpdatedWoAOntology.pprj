@@ -1,4 +1,4 @@
-; Mon Apr 16 18:12:22 CEST 2018
+; Wed Apr 18 20:54:06 CEST 2018
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -19,10 +19,11 @@
 
 ([BROWSER_SLOT_NAMES] of  Property_List
 
-	(properties [WoA_ProjectKB_Class236]))
+	(properties [UpdatedWoAOntology_ProjectKB_Class163]))
 
 ([CLSES_TAB] of  Widget
 
+	(is_hidden FALSE)
 	(widget_class_name "edu.stanford.smi.protege.widget.ClsesTab"))
 
 ([CREATION_TIMESTAMP_WIDGET] of  Widget
@@ -35,6 +36,7 @@
 
 ([FORMS_TAB] of  Widget
 
+	(is_hidden FALSE)
 	(widget_class_name "edu.stanford.smi.protege.widget.FormsTab"))
 
 ([INSTANCE_ANNOTATION_FORM_WIDGET] of  Widget
@@ -58,109 +60,114 @@
 
 ([INSTANCES_TAB] of  Widget
 
+	(is_hidden FALSE)
 	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
 
-([KB_011329_Class149] of  Map
+([KB_213395_Class152] of  Map
 )
 
-([KB_785039_Class0] of  String
+([KB_250803_Class0] of  String
 
 	(name "factory_class_name")
 	(string_value "edu.stanford.smi.protege.storage.clips.ClipsKnowledgeBaseFactory"))
 
-([KB_785039_Class1] of  Map
-)
+([KB_250803_Class1] of  Map
 
-([KB_785039_Class100] of  Property_List
+	(entries
+		[UpdatedWoAOntology_ProjectKB_Class164]
+		[UpdatedWoAOntology_ProjectKB_Class165]
+		[UpdatedWoAOntology_ProjectKB_Class166]))
 
-	(properties [WoA_ProjectKB_Class103]))
+([KB_250803_Class100] of  Property_List
 
-([KB_785039_Class101] of  String
+	(properties [WoAOntology_ProjectKB_Class103]))
+
+([KB_250803_Class101] of  String
 
 	(name "classes_file_name")
-	(string_value "WoA.pont"))
+	(string_value "UpdatedWoAOntology.pont"))
 
-([KB_785039_Class102] of  String
+([KB_250803_Class102] of  String
 
 	(name "instances_file_name")
-	(string_value "WoA.pins"))
+	(string_value "UpdatedWoAOntology.pins"))
 
-([KB_785039_Class79] of  Property_List
+([KB_250803_Class79] of  Property_List
 
 	(properties
-		[KB_785039_Class80]
-		[KB_785039_Class81]))
+		[KB_250803_Class80]
+		[KB_250803_Class81]))
 
-([KB_785039_Class80] of  Boolean
+([KB_250803_Class80] of  Boolean
 
 	(boolean_value FALSE)
 	(name "ButtonDisplayed-View References to Value"))
 
-([KB_785039_Class81] of  Boolean
+([KB_250803_Class81] of  Boolean
 
 	(boolean_value FALSE)
 	(name "ButtonDisplayed-Delete Instance"))
 
-([KB_785039_Class82] of  Property_List
+([KB_250803_Class82] of  Property_List
 )
 
-([KB_785039_Class83] of  Property_List
+([KB_250803_Class83] of  Property_List
 )
 
-([KB_785039_Class84] of  Property_List
+([KB_250803_Class84] of  Property_List
 
 	(properties
-		[KB_785039_Class85]
-		[KB_785039_Class86]))
+		[KB_250803_Class85]
+		[KB_250803_Class86]))
 
-([KB_785039_Class85] of  Boolean
+([KB_250803_Class85] of  Boolean
 
 	(boolean_value FALSE)
 	(name "ButtonDisplayed-Move up"))
 
-([KB_785039_Class86] of  Boolean
+([KB_250803_Class86] of  Boolean
 
 	(boolean_value FALSE)
 	(name "ButtonDisplayed-Move down"))
 
-([KB_785039_Class87] of  Property_List
+([KB_250803_Class87] of  Property_List
 )
 
-([KB_785039_Class88] of  Property_List
+([KB_250803_Class88] of  Property_List
 
 	(name "layout properties"))
 
-([KB_785039_Class89] of  Property_List
+([KB_250803_Class89] of  Property_List
 )
 
-([KB_785039_Class90] of  Property_List
+([KB_250803_Class90] of  Property_List
 )
 
-([KB_785039_Class91] of  Property_List
+([KB_250803_Class91] of  Property_List
 )
 
-([KB_785039_Class92] of  Property_List
+([KB_250803_Class92] of  Property_List
 )
 
-([KB_785039_Class93] of  Property_List
+([KB_250803_Class93] of  Property_List
 )
 
-([KB_785039_Class94] of  Property_List
+([KB_250803_Class94] of  Property_List
 )
 
-([KB_785039_Class95] of  Property_List
+([KB_250803_Class95] of  Property_List
 )
 
-([KB_785039_Class96] of  Property_List
+([KB_250803_Class96] of  Property_List
 )
 
-([KB_785039_Class97] of  Property_List
+([KB_250803_Class97] of  Property_List
 )
 
-([KB_785039_Class98] of  Property_List
+([KB_250803_Class98] of  Property_List
 )
 
-([KB_785039_Class99] of  Property_List
+([KB_250803_Class99] of  Property_List
 )
 
 ([LAYOUT_PROPERTIES] of  Property_List
@@ -175,6 +182,7 @@
 	(display_hidden_classes TRUE)
 	(display_multi_parent_class_icon TRUE)
 	(is_readonly FALSE)
+	(tabbed_instance_form_layout FALSE)
 	(undo_enabled TRUE)
 	(update_modification_slots FALSE))
 
@@ -255,39 +263,80 @@
 	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
 	(default_slot_metaclass ":STANDARD-SLOT")
 	(included_projects "file:/Users/ducaohui/Downloads/beangenerator-plugin/plugins/nl.uva.psy.swi.beangenerator/ontologies/SimpleJADEAbstractOntology.pprj")
+	(journaling_enabled FALSE)
 	(next_frame_number 0)
 	(options [option_instance])
-	(property_map [KB_785039_Class1])
+	(property_map [KB_250803_Class1])
 	(sources [SOURCES])
 	(tabs
 		[CLSES_TAB]
 		[SLOTS_TAB]
 		[FORMS_TAB]
 		[INSTANCES_TAB]
-		[QUERIES_TAB]))
+		[QUERIES_TAB]
+		[WoAOntology_ProjectKB_Class188]
+		[WoAOntology_ProjectKB_Class210]
+		[WoAOntology_ProjectKB_Class172]
+		[WoAOntology_ProjectKB_Class218]
+		[WoAOntology_ProjectKB_Class158]
+		[WoAOntology_ProjectKB_Class214]
+		[WoAOntology_ProjectKB_Class166]
+		[WoAOntology_ProjectKB_Class164]
+		[WoAOntology_ProjectKB_Class150]
+		[WoAOntology_ProjectKB_Class194]
+		[WoAOntology_ProjectKB_Class216]
+		[WoAOntology_ProjectKB_Class180]
+		[WoAOntology_ProjectKB_Class174]
+		[WoAOntology_ProjectKB_Class176]
+		[WoAOntology_ProjectKB_Class220]
+		[WoAOntology_ProjectKB_Class170]
+		[WoAOntology_ProjectKB_Class206]
+		[WoAOntology_ProjectKB_Class168]
+		[WoAOntology_ProjectKB_Class224]
+		[WoAOntology_ProjectKB_Class156]
+		[WoAOntology_ProjectKB_Class208]
+		[WoAOntology_ProjectKB_Class204]
+		[WoAOntology_ProjectKB_Class190]
+		[WoAOntology_ProjectKB_Class196]
+		[WoAOntology_ProjectKB_Class202]
+		[WoAOntology_ProjectKB_Class192]
+		[WoAOntology_ProjectKB_Class222]
+		[WoAOntology_ProjectKB_Class200]
+		[WoAOntology_ProjectKB_Class160]
+		[WoAOntology_ProjectKB_Class186]
+		[WoAOntology_ProjectKB_Class182]
+		[WoAOntology_ProjectKB_Class184]
+		[WoAOntology_ProjectKB_Class152]
+		[WoAOntology_ProjectKB_Class154]
+		[WoAOntology_ProjectKB_Class178]
+		[WoAOntology_ProjectKB_Class198]
+		[WoAOntology_ProjectKB_Class212]
+		[WoAOntology_ProjectKB_Class162]))
 
 ([QUERIES_TAB] of  Widget
 
-	(property_list [KB_785039_Class100])
+	(is_hidden FALSE)
+	(property_list [KB_250803_Class100])
 	(widget_class_name "edu.stanford.smi.protegex.queries_tab.QueriesTab"))
 
 ([SLOTS_TAB] of  Widget
 
+	(is_hidden FALSE)
 	(widget_class_name "edu.stanford.smi.protege.widget.SlotsTab"))
 
 ([SOURCES] of  Property_List
 
 	(properties
-		[KB_785039_Class0]
-		[KB_785039_Class101]
-		[KB_785039_Class102]))
+		[KB_250803_Class0]
+		[KB_250803_Class101]
+		[KB_250803_Class102]))
 
 ([STANDARD_CLASS_CONSTRAINTS_WIDGET] of  Widget
 
 	(height 120)
 	(label "Constraints")
 	(name ":SLOT-CONSTRAINTS")
-	(property_list [KB_785039_Class79])
+	(property_list [KB_250803_Class79])
 	(widget_class_name "edu.stanford.smi.protege.widget.ConstraintsWidget")
 	(width 200)
 	(x 400)
@@ -314,7 +363,7 @@
 	(height 120)
 	(label "Documentation")
 	(name ":DOCUMENTATION")
-	(property_list [KB_785039_Class82])
+	(property_list [KB_250803_Class82])
 	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
 	(width 200)
 	(x 200)
@@ -331,7 +380,7 @@
 	(height 60)
 	(label "Name")
 	(name ":NAME")
-	(property_list [KB_785039_Class83])
+	(property_list [KB_250803_Class83])
 	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
 	(width 200)
 	(x 0)
@@ -342,7 +391,7 @@
 	(height 60)
 	(label "Role")
 	(name ":ROLE")
-	(property_list [KB_785039_Class87])
+	(property_list [KB_250803_Class87])
 	(widget_class_name "edu.stanford.smi.protege.widget.RoleWidget")
 	(width 200)
 	(x 0)
@@ -353,7 +402,7 @@
 	(height 150)
 	(label "Template Slots")
 	(name ":DIRECT-TEMPLATE-SLOTS")
-	(property_list [KB_785039_Class84])
+	(property_list [KB_250803_Class84])
 	(widget_class_name "edu.stanford.smi.protege.widget.TemplateSlotsWidget")
 	(width 600)
 	(x 0)
@@ -431,7 +480,7 @@
 	(height 90)
 	(label "Default")
 	(name ":SLOT-DEFAULTS")
-	(property_list [KB_785039_Class91])
+	(property_list [KB_250803_Class91])
 	(widget_class_name "edu.stanford.smi.protege.widget.DefaultValuesWidget")
 	(width 200)
 	(x 400)
@@ -442,7 +491,7 @@
 	(height 95)
 	(label "Domain")
 	(name ":DIRECT-DOMAIN")
-	(property_list [KB_785039_Class89])
+	(property_list [KB_250803_Class89])
 	(widget_class_name "edu.stanford.smi.protege.widget.DirectDomainWidget")
 	(width 200)
 	(x 400)
@@ -457,7 +506,7 @@
 	(height 120)
 	(label "Documentation")
 	(name ":DOCUMENTATION")
-	(property_list [KB_785039_Class92])
+	(property_list [KB_250803_Class92])
 	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
 	(width 200)
 	(x 200)
@@ -474,7 +523,7 @@
 	(height 60)
 	(label "Inverse Slot")
 	(name ":SLOT-INVERSE")
-	(property_list [KB_785039_Class98])
+	(property_list [KB_250803_Class98])
 	(widget_class_name "edu.stanford.smi.protege.widget.InverseSlotWidget")
 	(width 200)
 	(x 200)
@@ -484,7 +533,7 @@
 
 	(height 35)
 	(name ":SLOT-MAXIMUM-CARDINALITY")
-	(property_list [KB_785039_Class97])
+	(property_list [KB_250803_Class97])
 	(widget_class_name "edu.stanford.smi.protege.widget.MaximumCardinalityWidget")
 	(width 200)
 	(x 200)
@@ -495,7 +544,7 @@
 	(height 60)
 	(label "Maximum")
 	(name ":SLOT-NUMERIC-MAXIMUM")
-	(property_list [KB_785039_Class93])
+	(property_list [KB_250803_Class93])
 	(widget_class_name "edu.stanford.smi.protege.widget.NumericMaximumWidget")
 	(width 100)
 	(x 100)
@@ -506,7 +555,7 @@
 	(height 60)
 	(label "Cardinality")
 	(name ":SLOT-MINIMUM-CARDINALITY")
-	(property_list [KB_785039_Class96])
+	(property_list [KB_250803_Class96])
 	(widget_class_name "edu.stanford.smi.protege.widget.MinimumCardinalityWidget")
 	(width 200)
 	(x 200)
@@ -517,7 +566,7 @@
 	(height 60)
 	(label "Minimum")
 	(name ":SLOT-NUMERIC-MINIMUM")
-	(property_list [KB_785039_Class94])
+	(property_list [KB_250803_Class94])
 	(widget_class_name "edu.stanford.smi.protege.widget.NumericMinimumWidget")
 	(width 100)
 	(x 0)
@@ -528,7 +577,7 @@
 	(height 60)
 	(label "Name")
 	(name ":NAME")
-	(property_list [KB_785039_Class95])
+	(property_list [KB_250803_Class95])
 	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
 	(width 200)
 	(x 0)
@@ -547,7 +596,7 @@
 	(height 155)
 	(label "Value Type")
 	(name ":SLOT-VALUE-TYPE")
-	(property_list [KB_785039_Class99])
+	(property_list [KB_250803_Class99])
 	(widget_class_name "edu.stanford.smi.protege.widget.ValueTypeWidget")
 	(width 200)
 	(x 0)
@@ -558,7 +607,7 @@
 	(height 90)
 	(label "Template Values")
 	(name ":SLOT-VALUES")
-	(property_list [KB_785039_Class90])
+	(property_list [KB_250803_Class90])
 	(widget_class_name "edu.stanford.smi.protege.widget.SlotValuesWidget")
 	(width 200)
 	(x 400)
@@ -584,394 +633,415 @@
 		[STANDARD_SLOT_NAME_WIDGET]
 		[STANDARD_SLOT_INVERSE_WIDGET]
 		[STANDARD_SLOT_TYPE_WIDGET]
-		[KB_785039_Class88]))
+		[KB_250803_Class88]))
+
+([UpdatedWoAOntology_ProjectKB_Class153] of  Property_List
+)
+
+([UpdatedWoAOntology_ProjectKB_Class154] of  Property_List
+)
+
+([UpdatedWoAOntology_ProjectKB_Class155] of  Property_List
+)
+
+([UpdatedWoAOntology_ProjectKB_Class156] of  Property_List
+)
+
+([UpdatedWoAOntology_ProjectKB_Class157] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([UpdatedWoAOntology_ProjectKB_Class158] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([UpdatedWoAOntology_ProjectKB_Class159] of  Property_List
+)
+
+([UpdatedWoAOntology_ProjectKB_Class160] of  Property_List
+)
+
+([UpdatedWoAOntology_ProjectKB_Class161] of  Property_List
+)
+
+([UpdatedWoAOntology_ProjectKB_Class162] of  Property_List
+)
+
+([UpdatedWoAOntology_ProjectKB_Class163] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([UpdatedWoAOntology_ProjectKB_Class164] of  Map_Entry
+
+	(key "add_name_on_instance_form")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
+([UpdatedWoAOntology_ProjectKB_Class165] of  Map_Entry
+
+	(key "change_tracking_active")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
+([UpdatedWoAOntology_ProjectKB_Class166] of  Map_Entry
+
+	(key "suppress_instance_counting")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
 
 ([VERTICAL_STRETCHER] of  String
 
 	(name "vertical_stretcher")
 	(string_value ":DIRECT-TEMPLATE-SLOTS"))
 
-([WoA_ProjectKB_Class103] of  String
+([WoAOntology_ProjectKB_Class103] of  String
 
 	(name "SearchTab_Query"))
 
-([WoA_ProjectKB_Class150] of  Widget
+([WoAOntology_ProjectKB_Class150] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class151])
+	(property_list [WoAOntology_ProjectKB_Class151])
 	(widget_class_name "se.liu.ida.JessTab.JessTab"))
 
-([WoA_ProjectKB_Class151] of  Property_List
+([WoAOntology_ProjectKB_Class151] of  Property_List
 )
 
-([WoA_ProjectKB_Class152] of  Widget
+([WoAOntology_ProjectKB_Class152] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class153])
+	(property_list [WoAOntology_ProjectKB_Class153])
 	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadatatab.OWLMetadataTab"))
 
-([WoA_ProjectKB_Class153] of  Property_List
+([WoAOntology_ProjectKB_Class153] of  Property_List
 )
 
-([WoA_ProjectKB_Class154] of  Widget
+([WoAOntology_ProjectKB_Class154] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class155])
+	(property_list [WoAOntology_ProjectKB_Class155])
 	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLPropertiesTab"))
 
-([WoA_ProjectKB_Class155] of  Property_List
+([WoAOntology_ProjectKB_Class155] of  Property_List
 )
 
-([WoA_ProjectKB_Class156] of  Widget
+([WoAOntology_ProjectKB_Class156] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class157])
+	(property_list [WoAOntology_ProjectKB_Class157])
 	(widget_class_name "edu.stanford.smi.protege.widget.ProtegePropertiesTab"))
 
-([WoA_ProjectKB_Class157] of  Property_List
+([WoAOntology_ProjectKB_Class157] of  Property_List
 )
 
-([WoA_ProjectKB_Class158] of  Widget
+([WoAOntology_ProjectKB_Class158] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class159])
+	(property_list [WoAOntology_ProjectKB_Class159])
 	(widget_class_name "uk.ac.man.cs.mig.coode.debugger.test.DebuggerTestTab"))
 
-([WoA_ProjectKB_Class159] of  Property_List
+([WoAOntology_ProjectKB_Class159] of  Property_List
 )
 
-([WoA_ProjectKB_Class160] of  Widget
+([WoAOntology_ProjectKB_Class160] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class161])
+	(property_list [WoAOntology_ProjectKB_Class161])
 	(widget_class_name "ezpal.EZPalTab"))
 
-([WoA_ProjectKB_Class161] of  Property_List
+([WoAOntology_ProjectKB_Class161] of  Property_List
 )
 
-([WoA_ProjectKB_Class162] of  Widget
+([WoAOntology_ProjectKB_Class162] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class163])
+	(property_list [WoAOntology_ProjectKB_Class163])
 	(widget_class_name "edu.stanford.smi.protegex.server_changes.prompt.UsersTab"))
 
-([WoA_ProjectKB_Class163] of  Property_List
+([WoAOntology_ProjectKB_Class163] of  Property_List
 )
 
-([WoA_ProjectKB_Class164] of  Widget
+([WoAOntology_ProjectKB_Class164] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class165])
+	(property_list [WoAOntology_ProjectKB_Class165])
 	(widget_class_name "ca.uvic.csr.shrimp.jambalaya.JambalayaTab"))
 
-([WoA_ProjectKB_Class165] of  Property_List
+([WoAOntology_ProjectKB_Class165] of  Property_List
 )
 
-([WoA_ProjectKB_Class166] of  Widget
+([WoAOntology_ProjectKB_Class166] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class167])
+	(property_list [WoAOntology_ProjectKB_Class167])
 	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.InstanceTreeTab"))
 
-([WoA_ProjectKB_Class167] of  Property_List
+([WoAOntology_ProjectKB_Class167] of  Property_List
 )
 
-([WoA_ProjectKB_Class168] of  Widget
+([WoAOntology_ProjectKB_Class168] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class169])
+	(property_list [WoAOntology_ProjectKB_Class169])
 	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalConstraintsTab"))
 
-([WoA_ProjectKB_Class169] of  Property_List
+([WoAOntology_ProjectKB_Class169] of  Property_List
 )
 
-([WoA_ProjectKB_Class170] of  Widget
+([WoAOntology_ProjectKB_Class170] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class171])
+	(property_list [WoAOntology_ProjectKB_Class171])
 	(widget_class_name "uk.ac.man.ac.mig.coode.individuals.ui.OWLDLIndividualsTab"))
 
-([WoA_ProjectKB_Class171] of  Property_List
+([WoAOntology_ProjectKB_Class171] of  Property_List
 )
 
-([WoA_ProjectKB_Class172] of  Widget
+([WoAOntology_ProjectKB_Class172] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class173])
+	(property_list [WoAOntology_ProjectKB_Class173])
 	(widget_class_name "edu.stanford.smi.protege.widget.ClsesAndInstancesTab"))
 
-([WoA_ProjectKB_Class173] of  Property_List
+([WoAOntology_ProjectKB_Class173] of  Property_List
 )
 
-([WoA_ProjectKB_Class174] of  Widget
+([WoAOntology_ProjectKB_Class174] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class175])
+	(property_list [WoAOntology_ProjectKB_Class175])
 	(widget_class_name "edu.stanford.smi.protegex.evaluation.MetaAnalysis"))
 
-([WoA_ProjectKB_Class175] of  Property_List
+([WoAOntology_ProjectKB_Class175] of  Property_List
 )
 
-([WoA_ProjectKB_Class176] of  Widget
+([WoAOntology_ProjectKB_Class176] of  Widget
 
-	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class177])
+	(is_hidden FALSE)
+	(property_list [WoAOntology_ProjectKB_Class177])
 	(widget_class_name "nl.uva.psy.swi.beangenerator.OntologyBeanGeneratorTab"))
 
-([WoA_ProjectKB_Class177] of  Property_List
+([WoAOntology_ProjectKB_Class177] of  Property_List
 )
 
-([WoA_ProjectKB_Class178] of  Widget
+([WoAOntology_ProjectKB_Class178] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class179])
+	(property_list [WoAOntology_ProjectKB_Class179])
 	(widget_class_name "uk.ac.man.cs.mig.coode.owlviz.ui.OWLVizTab"))
 
-([WoA_ProjectKB_Class179] of  Property_List
+([WoAOntology_ProjectKB_Class179] of  Property_List
 )
 
-([WoA_ProjectKB_Class180] of  Widget
+([WoAOntology_ProjectKB_Class180] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class181])
+	(property_list [WoAOntology_ProjectKB_Class181])
 	(widget_class_name "edu.stanford.smi.protege.query.LuceneQueryPlugin"))
 
-([WoA_ProjectKB_Class181] of  Property_List
+([WoAOntology_ProjectKB_Class181] of  Property_List
 )
 
-([WoA_ProjectKB_Class182] of  Widget
+([WoAOntology_ProjectKB_Class182] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class183])
+	(property_list [WoAOntology_ProjectKB_Class183])
 	(widget_class_name "edu.stanford.smi.protegex.owl.ui.cls.OWLClassesTab"))
 
-([WoA_ProjectKB_Class183] of  Property_List
+([WoAOntology_ProjectKB_Class183] of  Property_List
 )
 
-([WoA_ProjectKB_Class184] of  Widget
+([WoAOntology_ProjectKB_Class184] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class185])
+	(property_list [WoAOntology_ProjectKB_Class185])
 	(widget_class_name "edu.stanford.smi.protegex.owl.ui.individuals.OWLIndividualsTab"))
 
-([WoA_ProjectKB_Class185] of  Property_List
+([WoAOntology_ProjectKB_Class185] of  Property_List
 )
 
-([WoA_ProjectKB_Class186] of  Widget
+([WoAOntology_ProjectKB_Class186] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class187])
+	(property_list [WoAOntology_ProjectKB_Class187])
 	(widget_class_name "org.protege.owl.mm.portability.protege3.MappingMasterTab"))
 
-([WoA_ProjectKB_Class187] of  Property_List
+([WoAOntology_ProjectKB_Class187] of  Property_List
 )
 
-([WoA_ProjectKB_Class188] of  Widget
+([WoAOntology_ProjectKB_Class188] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class189])
+	(property_list [WoAOntology_ProjectKB_Class189])
 	(widget_class_name "edu.stanford.smi.protegex.changeanalysis.ChangeAnalysisTab"))
 
-([WoA_ProjectKB_Class189] of  Property_List
+([WoAOntology_ProjectKB_Class189] of  Property_List
 )
 
-([WoA_ProjectKB_Class190] of  Widget
+([WoAOntology_ProjectKB_Class190] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class191])
+	(property_list [WoAOntology_ProjectKB_Class191])
 	(widget_class_name "TGViztab.TGVizTab"))
 
-([WoA_ProjectKB_Class191] of  Property_List
+([WoAOntology_ProjectKB_Class191] of  Property_List
 )
 
-([WoA_ProjectKB_Class192] of  Widget
+([WoAOntology_ProjectKB_Class192] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class193])
+	(property_list [WoAOntology_ProjectKB_Class193])
 	(widget_class_name "edu.stanford.smi.protegex.changes.changesKBViewTab.ChangesKBViewTab"))
 
-([WoA_ProjectKB_Class193] of  Property_List
+([WoAOntology_ProjectKB_Class193] of  Property_List
 )
 
-([WoA_ProjectKB_Class194] of  Widget
+([WoAOntology_ProjectKB_Class194] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class195])
+	(property_list [WoAOntology_ProjectKB_Class195])
 	(widget_class_name "edu.stanford.smi.protege.widget.KAToolTab"))
 
-([WoA_ProjectKB_Class195] of  Property_List
+([WoAOntology_ProjectKB_Class195] of  Property_List
 )
 
-([WoA_ProjectKB_Class196] of  Widget
+([WoAOntology_ProjectKB_Class196] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class197])
+	(property_list [WoAOntology_ProjectKB_Class197])
 	(widget_class_name "edu.stanford.smi.protegex.xml.tab.XMLTab"))
 
-([WoA_ProjectKB_Class197] of  Property_List
+([WoAOntology_ProjectKB_Class197] of  Property_List
 )
 
-([WoA_ProjectKB_Class198] of  Widget
+([WoAOntology_ProjectKB_Class198] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class199])
+	(property_list [WoAOntology_ProjectKB_Class199])
 	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalQueriesTab"))
 
-([WoA_ProjectKB_Class199] of  Property_List
+([WoAOntology_ProjectKB_Class199] of  Property_List
 )
 
-([WoA_ProjectKB_Class200] of  Widget
+([WoAOntology_ProjectKB_Class200] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class201])
+	(property_list [WoAOntology_ProjectKB_Class201])
 	(widget_class_name "edu.stanford.smi.protegex.chatPlugin.ChatTab"))
 
-([WoA_ProjectKB_Class201] of  Property_List
+([WoAOntology_ProjectKB_Class201] of  Property_List
 )
 
-([WoA_ProjectKB_Class202] of  Widget
+([WoAOntology_ProjectKB_Class202] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class203])
+	(property_list [WoAOntology_ProjectKB_Class203])
 	(widget_class_name "org.protege.owl.axiome.ui.AxiomeTab"))
 
-([WoA_ProjectKB_Class203] of  Property_List
+([WoAOntology_ProjectKB_Class203] of  Property_List
 )
 
-([WoA_ProjectKB_Class204] of  Widget
+([WoAOntology_ProjectKB_Class204] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class205])
+	(property_list [WoAOntology_ProjectKB_Class205])
 	(widget_class_name "edu.stanford.smi.protege.keywordsearch.StringSearch"))
 
-([WoA_ProjectKB_Class205] of  Property_List
+([WoAOntology_ProjectKB_Class205] of  Property_List
 )
 
-([WoA_ProjectKB_Class206] of  Widget
+([WoAOntology_ProjectKB_Class206] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class207])
+	(property_list [WoAOntology_ProjectKB_Class207])
 	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormsTab"))
 
-([WoA_ProjectKB_Class207] of  Property_List
+([WoAOntology_ProjectKB_Class207] of  Property_List
 )
 
-([WoA_ProjectKB_Class208] of  Widget
+([WoAOntology_ProjectKB_Class208] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class209])
+	(property_list [WoAOntology_ProjectKB_Class209])
 	(widget_class_name "script.ProtegeScriptTab"))
 
-([WoA_ProjectKB_Class209] of  Property_List
+([WoAOntology_ProjectKB_Class209] of  Property_List
 )
 
-([WoA_ProjectKB_Class210] of  Widget
+([WoAOntology_ProjectKB_Class210] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class211])
+	(property_list [WoAOntology_ProjectKB_Class211])
 	(widget_class_name "edu.stanford.smi.protegex.changes.ChangesTab"))
 
-([WoA_ProjectKB_Class211] of  Property_List
+([WoAOntology_ProjectKB_Class211] of  Property_List
 )
 
-([WoA_ProjectKB_Class212] of  Widget
+([WoAOntology_ProjectKB_Class212] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class213])
+	(property_list [WoAOntology_ProjectKB_Class213])
 	(widget_class_name "edu.stanford.smi.protegex.owl.swrl.ui.tab.SWRLTab"))
 
-([WoA_ProjectKB_Class213] of  Property_List
+([WoAOntology_ProjectKB_Class213] of  Property_List
 )
 
-([WoA_ProjectKB_Class214] of  Widget
+([WoAOntology_ProjectKB_Class214] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class215])
+	(property_list [WoAOntology_ProjectKB_Class215])
 	(widget_class_name "edu.stanford.smi.protegex.fctab.FacetConstraintsTab"))
 
-([WoA_ProjectKB_Class215] of  Property_List
+([WoAOntology_ProjectKB_Class215] of  Property_List
 )
 
-([WoA_ProjectKB_Class216] of  Widget
+([WoAOntology_ProjectKB_Class216] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class217])
+	(property_list [WoAOntology_ProjectKB_Class217])
 	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.KnowledgeTreeTab"))
 
-([WoA_ProjectKB_Class217] of  Property_List
+([WoAOntology_ProjectKB_Class217] of  Property_List
 )
 
-([WoA_ProjectKB_Class218] of  Widget
+([WoAOntology_ProjectKB_Class218] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class219])
+	(property_list [WoAOntology_ProjectKB_Class219])
 	(widget_class_name "edu.stanford.smi.protegex.datamaster.DataMasterTab"))
 
-([WoA_ProjectKB_Class219] of  Property_List
+([WoAOntology_ProjectKB_Class219] of  Property_List
 )
 
-([WoA_ProjectKB_Class220] of  Widget
+([WoAOntology_ProjectKB_Class220] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class221])
+	(property_list [WoAOntology_ProjectKB_Class221])
 	(widget_class_name "dfki.protege.ontoviz_tab.OntovizTab"))
 
-([WoA_ProjectKB_Class221] of  Property_List
+([WoAOntology_ProjectKB_Class221] of  Property_List
 )
 
-([WoA_ProjectKB_Class222] of  Widget
+([WoAOntology_ProjectKB_Class222] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class223])
+	(property_list [WoAOntology_ProjectKB_Class223])
 	(widget_class_name "edu.stanford.smi.protegex.changes.stats.ChangeStatisticsTab"))
 
-([WoA_ProjectKB_Class223] of  Property_List
+([WoAOntology_ProjectKB_Class223] of  Property_List
 )
 
-([WoA_ProjectKB_Class224] of  Widget
+([WoAOntology_ProjectKB_Class224] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [WoA_ProjectKB_Class225])
+	(property_list [WoAOntology_ProjectKB_Class225])
 	(widget_class_name "edu.stanford.smi.protegex.prompt.PromptTab"))
 
-([WoA_ProjectKB_Class225] of  Property_List
+([WoAOntology_ProjectKB_Class225] of  Property_List
 )
-
-([WoA_ProjectKB_Class226] of  Property_List
-)
-
-([WoA_ProjectKB_Class227] of  Property_List
-)
-
-([WoA_ProjectKB_Class228] of  Property_List
-)
-
-([WoA_ProjectKB_Class229] of  Property_List
-)
-
-([WoA_ProjectKB_Class230] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([WoA_ProjectKB_Class231] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([WoA_ProjectKB_Class232] of  Property_List
-)
-
-([WoA_ProjectKB_Class233] of  Property_List
-)
-
-([WoA_ProjectKB_Class234] of  Property_List
-)
-
-([WoA_ProjectKB_Class235] of  Property_List
-)
-
-([WoA_ProjectKB_Class236] of  String
-
-	(name ":INSTANCE-ANNOTATION")
-	(string_value "%3AANNOTATION-TEXT"))

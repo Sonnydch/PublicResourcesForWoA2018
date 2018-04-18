@@ -1,0 +1,19 @@
+; Wed Apr 18 20:54:06 CEST 2018
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([project+annotation] of  %3APROJECT-ANNOTATION
+
+	(%3ALOCATION "/Users/ducaohui/Desktop/AgentBasedSoftwareEngineering")
+	(%3AONTOLOGYNAME "WoaSonny")
+	(%3APACKAGE "again.test")
+	(%3ASUPPORT "j2se"))
+
+([Tribe] of  %3AJADE-CLASS
+
+	(%3AJADE-IGNORE FALSE))
+
+([TribeRegistration] of  %3AJADE-CLASS
+
+	(%3AJADE-IGNORE FALSE))

@@ -1,4 +1,4 @@
-; Mon Apr 16 18:12:22 CEST 2018
+; Wed Apr 18 20:54:06 CEST 2018
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -16,6 +16,10 @@
 ;+		(cardinality 1 1)
 		(create-accessor read-write)))
 
+(defclass TribeRegistration
+	(is-a AgentAction)
+	(role concrete))
+
 (defclass Tribe
 	(is-a Concept)
 	(role concrete)
@@ -27,11 +31,3 @@
 		(type STRING)
 ;+		(cardinality 1 1)
 		(create-accessor read-write)))
-
-(defclass Action
-	(is-a USER)
-	(role abstract))
-
-(defclass TribeRegistration
-	(is-a Action)
-	(role concrete))

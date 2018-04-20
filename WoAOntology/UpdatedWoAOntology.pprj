@@ -1,4 +1,4 @@
-; Wed Apr 18 20:54:06 CEST 2018
+; Fri Apr 20 19:00:45 CEST 2018
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -19,7 +19,10 @@
 
 ([BROWSER_SLOT_NAMES] of  Property_List
 
-	(properties [UpdatedWoAOntology_ProjectKB_Class163]))
+	(properties
+		[UpdatedWoAOntology_ProjectKB_Class10174]
+		[UpdatedWoAOntology_ProjectKB_Class10175]
+		[UpdatedWoAOntology_ProjectKB_Class10176]))
 
 ([CLSES_TAB] of  Widget
 
@@ -63,9 +66,6 @@
 	(is_hidden FALSE)
 	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
 
-([KB_213395_Class152] of  Map
-)
-
 ([KB_250803_Class0] of  String
 
 	(name "factory_class_name")
@@ -74,9 +74,9 @@
 ([KB_250803_Class1] of  Map
 
 	(entries
-		[UpdatedWoAOntology_ProjectKB_Class164]
-		[UpdatedWoAOntology_ProjectKB_Class165]
-		[UpdatedWoAOntology_ProjectKB_Class166]))
+		[UpdatedWoAOntology_ProjectKB_Class10177]
+		[UpdatedWoAOntology_ProjectKB_Class10178]
+		[UpdatedWoAOntology_ProjectKB_Class10179]))
 
 ([KB_250803_Class100] of  Property_List
 
@@ -170,6 +170,629 @@
 ([KB_250803_Class99] of  Property_List
 )
 
+([KB_395962_Class100] of  Widget
+
+	(height 120)
+	(label "Constraints")
+	(name ":SLOT-CONSTRAINTS")
+	(property_list [KB_395962_Class101])
+	(widget_class_name "edu.stanford.smi.protege.widget.ConstraintsWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([KB_395962_Class101] of  Property_List
+
+	(properties
+		[KB_395962_Class102]
+		[KB_395962_Class103]
+		[KB_395962_Class104]
+		[KB_395962_Class105]
+		[KB_395962_Class106]
+		[KB_395962_Class107]
+		[UpdatedWoAOntology_ProjectKB_Class10163]
+		[UpdatedWoAOntology_ProjectKB_Class10164]))
+
+([KB_395962_Class102] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([KB_395962_Class103] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([KB_395962_Class104] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([KB_395962_Class105] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_395962_Class106] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_395962_Class107] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([KB_395962_Class108] of  Widget
+
+	(name ":DIRECT-INSTANCES"))
+
+([KB_395962_Class109] of  Widget
+
+	(name ":DIRECT-SUBCLASSES"))
+
+([KB_395962_Class110] of  Widget
+
+	(name ":DIRECT-SUPERCLASSES"))
+
+([KB_395962_Class111] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [UpdatedWoAOntology_ProjectKB_Class10165])
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_395962_Class112] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(property_list [UpdatedWoAOntology_ProjectKB_Class10166])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_395962_Class113] of  Widget
+
+	(height 60)
+	(label "Role")
+	(name ":ROLE")
+	(property_list [UpdatedWoAOntology_ProjectKB_Class10167])
+	(widget_class_name "edu.stanford.smi.protege.widget.RoleWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_395962_Class114] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([KB_395962_Class115] of  Widget
+
+	(height 300)
+	(label "Template Slots")
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(property_list [KB_395962_Class116])
+	(widget_class_name "edu.stanford.smi.protege.widget.TemplateSlotsWidget")
+	(width 600)
+	(x 0)
+	(y 120))
+
+([KB_395962_Class116] of  Property_List
+
+	(properties
+		[KB_395962_Class117]
+		[KB_395962_Class118]
+		[KB_395962_Class119]
+		[KB_395962_Class120]
+		[KB_395962_Class121]
+		[KB_395962_Class122]
+		[KB_395962_Class123]
+		[KB_395962_Class124]
+		[KB_395962_Class125]
+		[KB_395962_Class126]
+		[KB_395962_Class127]
+		[KB_395962_Class128]
+		[KB_395962_Class129]
+		[KB_395962_Class130]
+		[KB_395962_Class131]
+		[KB_395962_Class132]))
+
+([KB_395962_Class117] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View selected slots"))
+
+([KB_395962_Class118] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View selected slots at class"))
+
+([KB_395962_Class119] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create slot and attach to class"))
+
+([KB_395962_Class120] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove overrides from selected slots"))
+
+([KB_395962_Class121] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_395962_Class122] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_395962_Class123] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Move up"))
+
+([KB_395962_Class124] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Move down"))
+
+([KB_395962_Class125] of  String
+
+	(name "ButtonDescription-View selected slots")
+	(string_value "View selected slots"))
+
+([KB_395962_Class126] of  String
+
+	(name "ButtonDescription-View selected slots at class")
+	(string_value "View selected slots at class"))
+
+([KB_395962_Class127] of  String
+
+	(name "ButtonDescription-Create slot and attach to class")
+	(string_value "Create slot and attach to class"))
+
+([KB_395962_Class128] of  String
+
+	(name "ButtonDescription-Remove overrides from selected slots")
+	(string_value "Remove overrides from selected slots"))
+
+([KB_395962_Class129] of  String
+
+	(name "ButtonDescription-Add")
+	(string_value "Attach slots to class"))
+
+([KB_395962_Class130] of  String
+
+	(name "ButtonDescription-Remove")
+	(string_value "Remove selected slots from class"))
+
+([KB_395962_Class131] of  String
+
+	(name "ButtonDescription-Move up")
+	(string_value "Move selected slot up"))
+
+([KB_395962_Class132] of  String
+
+	(name "ButtonDescription-Move down")
+	(string_value "Move selected slot down"))
+
+([KB_395962_Class133] of  Property_List
+
+	(name "layout properties")
+	(properties [KB_395962_Class134]))
+
+([KB_395962_Class134] of  String
+
+	(name "vertical_stretcher")
+	(string_value ":DIRECT-TEMPLATE-SLOTS"))
+
+([KB_395962_Class135] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Java super-class")
+	(name ":JADE-JAVA-BASE-CLASS")
+	(property_list [KB_395962_Class136])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 350)
+	(y 420))
+
+([KB_395962_Class136] of  Property_List
+)
+
+([KB_395962_Class137] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "Additional Java Code")
+	(name ":JADE-JAVA-CODE")
+	(property_list [KB_395962_Class138])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 600)
+	(x 0)
+	(y 480))
+
+([KB_395962_Class138] of  Property_List
+)
+
+([KB_395962_Class139] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "JADE Name")
+	(name ":JADE-NAME")
+	(property_list [KB_395962_Class140])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 80)
+	(y 420))
+
+([KB_395962_Class140] of  Property_List
+)
+
+([KB_395962_Class141] of  Widget
+
+	(height 40)
+	(is_hidden FALSE)
+	(label "ignore")
+	(name ":JADE-IGNORE")
+	(property_list [KB_395962_Class142])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 70)
+	(x 0)
+	(y 440))
+
+([KB_395962_Class142] of  Property_List
+)
+
+([KB_395962_Class152] of  Map
+)
+
+([KB_395962_Class47] of  Widget
+
+	(height 578)
+	(is_hidden FALSE)
+	(name ":JADE-SLOT")
+	(property_list [KB_395962_Class48])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 714)
+	(x 0)
+	(y 0))
+
+([KB_395962_Class48] of  Property_List
+
+	(name "slot widget properties")
+	(properties
+		[KB_395962_Class49]
+		[KB_395962_Class50]
+		[KB_395962_Class51]
+		[KB_395962_Class52]
+		[KB_395962_Class53]
+		[KB_395962_Class59]
+		[KB_395962_Class60]
+		[KB_395962_Class61]
+		[KB_395962_Class67]
+		[KB_395962_Class68]
+		[KB_395962_Class69]
+		[KB_395962_Class70]
+		[KB_395962_Class71]
+		[KB_395962_Class72]
+		[KB_395962_Class73]
+		[KB_395962_Class74]
+		[KB_395962_Class75]
+		[KB_395962_Class77]
+		[KB_395962_Class79]))
+
+([KB_395962_Class49] of  Widget
+
+	(height 60)
+	(label "Cardinality")
+	(name ":SLOT-MINIMUM-CARDINALITY")
+	(property_list [UpdatedWoAOntology_ProjectKB_Class159])
+	(widget_class_name "edu.stanford.smi.protege.widget.MinimumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 120))
+
+([KB_395962_Class50] of  Widget
+
+	(height 35)
+	(name ":SLOT-MAXIMUM-CARDINALITY")
+	(property_list [UpdatedWoAOntology_ProjectKB_Class160])
+	(widget_class_name "edu.stanford.smi.protege.widget.MaximumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 175))
+
+([KB_395962_Class51] of  Widget
+
+	(name ":SLOT-CONSTRAINTS"))
+
+([KB_395962_Class52] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([KB_395962_Class53] of  Widget
+
+	(height 120)
+	(label "Values")
+	(name ":SLOT-VALUES")
+	(property_list [KB_395962_Class54])
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotValuesWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([KB_395962_Class54] of  Property_List
+
+	(properties
+		[KB_395962_Class55]
+		[KB_395962_Class56]
+		[KB_395962_Class57]
+		[KB_395962_Class58]))
+
+([KB_395962_Class55] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View the selected value"))
+
+([KB_395962_Class56] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_395962_Class57] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create a new value"))
+
+([KB_395962_Class58] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_395962_Class59] of  Widget
+
+	(name ":DIRECT-SUPERSLOTS"))
+
+([KB_395962_Class60] of  Widget
+
+	(name ":DIRECT-SUBSLOTS"))
+
+([KB_395962_Class61] of  Widget
+
+	(height 150)
+	(label "Default")
+	(name ":SLOT-DEFAULTS")
+	(property_list [KB_395962_Class62])
+	(widget_class_name "edu.stanford.smi.protege.widget.DefaultValuesWidget")
+	(width 200)
+	(x 400)
+	(y 120))
+
+([KB_395962_Class62] of  Property_List
+
+	(properties
+		[KB_395962_Class63]
+		[KB_395962_Class64]
+		[KB_395962_Class65]
+		[KB_395962_Class66]))
+
+([KB_395962_Class63] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View the selected value"))
+
+([KB_395962_Class64] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_395962_Class65] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create a new value"))
+
+([KB_395962_Class66] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_395962_Class67] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [UpdatedWoAOntology_ProjectKB_Class153])
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_395962_Class68] of  Widget
+
+	(height 60)
+	(label "Maximum")
+	(name ":SLOT-NUMERIC-MAXIMUM")
+	(property_list [UpdatedWoAOntology_ProjectKB_Class154])
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMaximumWidget")
+	(width 100)
+	(x 100)
+	(y 210))
+
+([KB_395962_Class69] of  Widget
+
+	(height 60)
+	(label "Minimum")
+	(name ":SLOT-NUMERIC-MINIMUM")
+	(property_list [UpdatedWoAOntology_ProjectKB_Class155])
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMinimumWidget")
+	(width 100)
+	(x 0)
+	(y 210))
+
+([KB_395962_Class70] of  Widget
+
+	(name ":ASSOCIATED-FACET"))
+
+([KB_395962_Class71] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(property_list [UpdatedWoAOntology_ProjectKB_Class156])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_395962_Class72] of  Widget
+
+	(height 60)
+	(label "Inverse Slot")
+	(name ":SLOT-INVERSE")
+	(property_list [UpdatedWoAOntology_ProjectKB_Class161])
+	(widget_class_name "edu.stanford.smi.protege.widget.InverseSlotWidget")
+	(width 200)
+	(x 200)
+	(y 210))
+
+([KB_395962_Class73] of  Widget
+
+	(height 150)
+	(label "Value Type")
+	(name ":SLOT-VALUE-TYPE")
+	(property_list [UpdatedWoAOntology_ProjectKB_Class162])
+	(widget_class_name "edu.stanford.smi.protege.widget.ValueTypeWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_395962_Class74] of  Property_List
+
+	(name "layout properties"))
+
+([KB_395962_Class75] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "JADE Name")
+	(name ":JADE-NAME")
+	(property_list [KB_395962_Class76])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 270))
+
+([KB_395962_Class76] of  Property_List
+)
+
+([KB_395962_Class77] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Anonymous")
+	(name ":JADE-UNNAMED-SLOT")
+	(property_list [KB_395962_Class78])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 125)
+	(x 260)
+	(y 280))
+
+([KB_395962_Class78] of  Property_List
+)
+
+([KB_395962_Class79] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name ":DIRECT-DOMAIN")
+	(property_list [KB_395962_Class80])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 250)
+	(x 0)
+	(y 340))
+
+([KB_395962_Class80] of  Property_List
+
+	(properties
+		[KB_395962_Class81]
+		[KB_395962_Class82]
+		[KB_395962_Class83]
+		[KB_395962_Class84]
+		[KB_395962_Class85]
+		[KB_395962_Class86]
+		[UpdatedWoAOntology_ProjectKB_Class157]
+		[UpdatedWoAOntology_ProjectKB_Class158]))
+
+([KB_395962_Class81] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([KB_395962_Class82] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([KB_395962_Class83] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([KB_395962_Class84] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_395962_Class85] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_395962_Class86] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([KB_395962_Class98] of  Widget
+
+	(height 600)
+	(is_hidden FALSE)
+	(name ":JADE-CLASS")
+	(property_list [KB_395962_Class99])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 699)
+	(x 0)
+	(y 0))
+
+([KB_395962_Class99] of  Property_List
+
+	(name "class widget properties")
+	(properties
+		[KB_395962_Class100]
+		[KB_395962_Class108]
+		[KB_395962_Class109]
+		[KB_395962_Class110]
+		[KB_395962_Class111]
+		[KB_395962_Class112]
+		[KB_395962_Class113]
+		[KB_395962_Class114]
+		[KB_395962_Class115]
+		[KB_395962_Class133]
+		[KB_395962_Class135]
+		[KB_395962_Class137]
+		[KB_395962_Class139]
+		[KB_395962_Class141]))
+
 ([LAYOUT_PROPERTIES] of  Property_List
 
 	(name "layout properties")
@@ -254,15 +877,16 @@
 	(browser_slot_names [BROWSER_SLOT_NAMES])
 	(customized_instance_widgets
 		[INSTANCE_ANNOTATION_FORM_WIDGET]
+		[KB_395962_Class47]
 		[STANDARD_FACET_FORM_WIDGET]
 		[STANDARD_SLOT_FORM_WIDGET]
 		[PAL_FORM_WIDGET]
+		[KB_395962_Class98]
 		[STANDARD_CLASS_FORM_WIDGET])
 	(default_cls_metaclass ":STANDARD-CLASS")
 	(default_facet_metaclass ":STANDARD-FACET")
 	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
 	(default_slot_metaclass ":STANDARD-SLOT")
-	(included_projects "file:/Users/ducaohui/Downloads/beangenerator-plugin/plugins/nl.uva.psy.swi.beangenerator/ontologies/SimpleJADEAbstractOntology.pprj")
 	(journaling_enabled FALSE)
 	(next_frame_number 0)
 	(options [option_instance])
@@ -635,6 +1259,61 @@
 		[STANDARD_SLOT_TYPE_WIDGET]
 		[KB_250803_Class88]))
 
+([UpdatedWoAOntology_ProjectKB_Class10163] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([UpdatedWoAOntology_ProjectKB_Class10164] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([UpdatedWoAOntology_ProjectKB_Class10165] of  Property_List
+)
+
+([UpdatedWoAOntology_ProjectKB_Class10166] of  Property_List
+)
+
+([UpdatedWoAOntology_ProjectKB_Class10167] of  Property_List
+)
+
+([UpdatedWoAOntology_ProjectKB_Class10174] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([UpdatedWoAOntology_ProjectKB_Class10175] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([UpdatedWoAOntology_ProjectKB_Class10176] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([UpdatedWoAOntology_ProjectKB_Class10177] of  Map_Entry
+
+	(key "add_name_on_instance_form")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
+([UpdatedWoAOntology_ProjectKB_Class10178] of  Map_Entry
+
+	(key "change_tracking_active")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
+([UpdatedWoAOntology_ProjectKB_Class10179] of  Map_Entry
+
+	(key "suppress_instance_counting")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
 ([UpdatedWoAOntology_ProjectKB_Class153] of  Property_List
 )
 
@@ -668,32 +1347,6 @@
 
 ([UpdatedWoAOntology_ProjectKB_Class162] of  Property_List
 )
-
-([UpdatedWoAOntology_ProjectKB_Class163] of  String
-
-	(name ":INSTANCE-ANNOTATION")
-	(string_value "%3AANNOTATION-TEXT"))
-
-([UpdatedWoAOntology_ProjectKB_Class164] of  Map_Entry
-
-	(key "add_name_on_instance_form")
-	(key_class "java.lang.String")
-	(value "false")
-	(value_class "java.lang.String"))
-
-([UpdatedWoAOntology_ProjectKB_Class165] of  Map_Entry
-
-	(key "change_tracking_active")
-	(key_class "java.lang.String")
-	(value "false")
-	(value_class "java.lang.String"))
-
-([UpdatedWoAOntology_ProjectKB_Class166] of  Map_Entry
-
-	(key "suppress_instance_counting")
-	(key_class "java.lang.String")
-	(value "false")
-	(value_class "java.lang.String"))
 
 ([VERTICAL_STRETCHER] of  String
 

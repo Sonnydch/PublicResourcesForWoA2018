@@ -1,4 +1,4 @@
-; Fri Apr 20 19:00:45 CEST 2018
+; Fri Apr 20 19:10:40 CEST 2018
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -71,6 +71,10 @@
 		(type SYMBOL)
 		(allowed-values FALSE TRUE)
 		(default TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot UpdatedWoAOntology_Class0
+		(type STRING)
 ;+		(cardinality 0 1)
 		(create-accessor read-write))
 	(multislot addresses
@@ -188,7 +192,11 @@
 
 (defclass TribeRegistration
 	(is-a AgentAction)
-	(role concrete))
+	(role concrete)
+	(single-slot ID
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
 
 (defclass Tribe
 	(is-a Concept)

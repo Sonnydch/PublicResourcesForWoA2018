@@ -1,4 +1,4 @@
-; Fri Apr 20 19:00:45 CEST 2018
+; Fri Apr 20 19:10:40 CEST 2018
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -31,7 +31,7 @@
 
 	(%3ALOCATION "/Users/ducaohui/Desktop/AgentBasedSoftwareEngineering")
 	(%3AONTOLOGYNAME "WoaSonny")
-	(%3APACKAGE "again.test")
+	(%3APACKAGE "new.test")
 	(%3ASUPPORT "j2se"))
 
 ([resolvers] of  %3AJADE-SLOT

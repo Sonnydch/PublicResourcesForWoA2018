@@ -1,4 +1,4 @@
-; Fri Apr 20 19:00:45 CEST 2018
+; Fri Apr 20 19:10:40 CEST 2018
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -20,9 +20,9 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[UpdatedWoAOntology_ProjectKB_Class10174]
-		[UpdatedWoAOntology_ProjectKB_Class10175]
-		[UpdatedWoAOntology_ProjectKB_Class10176]))
+		[UpdatedWoAOntology_ProjectKB_Class10]
+		[UpdatedWoAOntology_ProjectKB_Class11]
+		[UpdatedWoAOntology_ProjectKB_Class12]))
 
 ([CLSES_TAB] of  Widget
 
@@ -66,6 +66,9 @@
 	(is_hidden FALSE)
 	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
 
+([KB_007547_Class3] of  Map
+)
+
 ([KB_250803_Class0] of  String
 
 	(name "factory_class_name")
@@ -74,9 +77,9 @@
 ([KB_250803_Class1] of  Map
 
 	(entries
-		[UpdatedWoAOntology_ProjectKB_Class10177]
-		[UpdatedWoAOntology_ProjectKB_Class10178]
-		[UpdatedWoAOntology_ProjectKB_Class10179]))
+		[UpdatedWoAOntology_ProjectKB_Class13]
+		[UpdatedWoAOntology_ProjectKB_Class14]
+		[UpdatedWoAOntology_ProjectKB_Class15]))
 
 ([KB_250803_Class100] of  Property_List
 
@@ -451,9 +454,6 @@
 	(y 440))
 
 ([KB_395962_Class142] of  Property_List
-)
-
-([KB_395962_Class152] of  Map
 )
 
 ([KB_395962_Class47] of  Widget
@@ -878,8 +878,8 @@
 	(customized_instance_widgets
 		[INSTANCE_ANNOTATION_FORM_WIDGET]
 		[KB_395962_Class47]
-		[STANDARD_FACET_FORM_WIDGET]
 		[STANDARD_SLOT_FORM_WIDGET]
+		[STANDARD_FACET_FORM_WIDGET]
 		[PAL_FORM_WIDGET]
 		[KB_395962_Class98]
 		[STANDARD_CLASS_FORM_WIDGET])
@@ -1259,6 +1259,11 @@
 		[STANDARD_SLOT_TYPE_WIDGET]
 		[KB_250803_Class88]))
 
+([UpdatedWoAOntology_ProjectKB_Class10] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
 ([UpdatedWoAOntology_ProjectKB_Class10163] of  Boolean
 
 	(boolean_value FALSE)
@@ -1278,36 +1283,31 @@
 ([UpdatedWoAOntology_ProjectKB_Class10167] of  Property_List
 )
 
-([UpdatedWoAOntology_ProjectKB_Class10174] of  String
-
-	(name ":INSTANCE-ANNOTATION")
-	(string_value "%3AANNOTATION-TEXT"))
-
-([UpdatedWoAOntology_ProjectKB_Class10175] of  String
-
-	(name ":META-CLASS")
-	(string_value "%3ANAME"))
-
-([UpdatedWoAOntology_ProjectKB_Class10176] of  String
+([UpdatedWoAOntology_ProjectKB_Class11] of  String
 
 	(name ":PAL-CONSTRAINT")
 	(string_value "%3APAL-NAME"))
 
-([UpdatedWoAOntology_ProjectKB_Class10177] of  Map_Entry
+([UpdatedWoAOntology_ProjectKB_Class12] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([UpdatedWoAOntology_ProjectKB_Class13] of  Map_Entry
 
 	(key "add_name_on_instance_form")
 	(key_class "java.lang.String")
 	(value "false")
 	(value_class "java.lang.String"))
 
-([UpdatedWoAOntology_ProjectKB_Class10178] of  Map_Entry
+([UpdatedWoAOntology_ProjectKB_Class14] of  Map_Entry
 
 	(key "change_tracking_active")
 	(key_class "java.lang.String")
 	(value "false")
 	(value_class "java.lang.String"))
 
-([UpdatedWoAOntology_ProjectKB_Class10179] of  Map_Entry
+([UpdatedWoAOntology_ProjectKB_Class15] of  Map_Entry
 
 	(key "suppress_instance_counting")
 	(key_class "java.lang.String")
